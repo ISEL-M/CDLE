@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/Project/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Ex13-Cat" />
+        <module name="Ex14-CatFileSystem-01" />
+        <module name="Ex24-ReadConfiguration-03" />
+        <module name="Ex06-Temperatures-05" />
+        <module name="Demo01-OpenCV-ExtractFramesFromVideo" />
+        <module name="Ex03-Temperatures-03" />
+        <module name="Demo02-OpenCV-IdentifyObjectsInPictures" />
+        <module name="Ex12-WordCount-02-Lib" />
+        <module name="Ex08-Temperatures-07" />
+        <module name="Ex18-StreamCompressor" />
+        <module name="Ex25-ConfigurationPrinter" />
+        <module name="00-Project" />
+        <module name="Ex21-PooledStreamCompressor" />
+        <module name="Ex01-Temperatures-01" />
+        <module name="Ex26-MapReduce-01" />
+        <module name="Ex20-FileDecompressor-02" />
+        <module name="Ex27-MapReduce-02" />
+        <module name="Ex16-FileCopyWithProgress" />
+        <module name="Ex13-WordCount-02" />
+        <module name="Ex07-Temperatures-06" />
+        <module name="Ex23-ReadConfiguration-02" />
+        <module name="Ex02-Temperatures-02" />
+        <module name="Ex11-WordCount-02" />
+        <module name="Ex04-Temperatures-03-Lib" />
+        <module name="Ex05-Temperatures-04" />
+        <module name="Ex10-WordCount-01" />
+        <module name="Ex15-CatFileSystem-02" />
+        <module name="Ex19-FileDecompressor-01" />
+        <module name="Ex22-ReadConfiguration-01" />
+        <module name="Utils-OpenCV" />
+        <module name="Ex17-ListStatus" />
+        <module name="Ex09-Temperatures-08" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Ex10-WordCount-01 (1)" target="1.8" />
+      <module name="Project" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

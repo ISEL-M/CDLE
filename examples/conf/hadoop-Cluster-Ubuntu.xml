@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<configuration>
+
+	<property>
+		<name>ClusterAddress</name>
+		<value>venus-lnx</value>
+	</property>
+	
+	<property>
+		<name>fs.defaultFS</name>
+		<value>hdfs://${ClusterAddress}:8020/</value>
+	</property>
+
+	<property>
+		<name>mapreduce.framework.name</name>
+		<value>yarn</value>
+	</property>
+
+	<property>
+		<name>yarn.resourcemanager.address</name>
+		<value>${ClusterAddress}:8032</value>
+	</property>
+
+</configuration>

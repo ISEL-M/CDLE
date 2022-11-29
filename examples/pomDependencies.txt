@@ -1,0 +1,21 @@
+    <!-- Hadoop main client artifact -->
+    <dependency>
+      <groupId>org.apache.hadoop</groupId>
+      <artifactId>hadoop-client</artifactId>
+      <version>${hadoop.version}</version>
+    </dependency>
+
+    <!-- Apache MapReduce Unit -->
+    <dependency>
+      <groupId>org.apache.mrunit</groupId>
+      <artifactId>mrunit</artifactId>
+      <version>${mrunit.version}</version>
+      <classifier>hadoop2</classifier>
+    </dependency>
+
+    <!-- Hadoop test artifact for running mini clusters -->
+    <dependency>
+      <groupId>org.apache.hadoop</groupId>
+      <artifactId>hadoop-minicluster</artifactId>
+      <version>${hadoop.version}</version>
+    </dependency>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+
+	<property>
+		<name>mapreduce.map.log.level</name>
+		<!-- <value>DEBUG</value> -->
+		<value>INFO</value>
+	</property>
+
+	<property>
+		<name>mapreduce.reduce.log.level</name>
+		<value>DEBUG</value>
+	</property>
+
+</configuration>
