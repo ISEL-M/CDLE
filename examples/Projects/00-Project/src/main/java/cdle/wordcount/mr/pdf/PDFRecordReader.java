@@ -23,6 +23,7 @@ public class PDFRecordReader extends RecordReader<LongWritable,Text> {
     private LongWritable key = null;
     private Text value = null;
     private FSDataInputStream fileIn;
+    private String fileName;
 
     @Override
     public void initialize(InputSplit genericSplit, TaskAttemptContext context)
@@ -32,6 +33,7 @@ public class PDFRecordReader extends RecordReader<LongWritable,Text> {
 
 
         Path file = split.getPath();
+        fileName = file.getName();
         FileSystem fs = file.getFileSystem(job);
         this.fileIn = fs.open(file);
 
@@ -46,9 +48,9 @@ public class PDFRecordReader extends RecordReader<LongWritable,Text> {
 
         if (key == null) {
             key = new LongWritable();
-            key.set(1);
+            key.set(0);
             value = new Text();
-            value.set(lines[0]);
+            value.set(fileName);
         } else {
             int temp = (int) key.get();
             if (temp < (lines.length - 1)) {
