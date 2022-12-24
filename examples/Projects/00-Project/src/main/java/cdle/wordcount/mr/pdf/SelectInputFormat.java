@@ -1,6 +1,7 @@
 package cdle.wordcount.mr.pdf;
 
 import cdle.wordcount.mr.FindDoc;
+import cdle.wordcount.mr.FindDocMapper;
 import cdle.wordcount.mr.MyLogUtils;
 import com.google.common.base.Charsets;
 import org.apache.commons.logging.Log;
@@ -20,15 +21,31 @@ import org.apache.hadoop.mapreduce.lib.input.FileSplit;
 import org.apache.hadoop.mapreduce.lib.input.LineRecordReader;
 
 public class SelectInputFormat extends FileInputFormat<LongWritable, Text> {
+    private static Log log;
+
+    static {
+        Class<?> klass;
+        klass = org.apache.hadoop.mapreduce.Mapper.class;
+
+        log = LogFactory.getLog( klass );
+        MyLogUtils.showDebugLevel( log, klass );
+
+        klass = FindDocMapper.class;
+
+        log = LogFactory.getLog( klass );
+        MyLogUtils.showDebugLevel( log, klass );
+    }
     @Override
     public RecordReader<LongWritable,Text> createRecordReader( InputSplit split, TaskAttemptContext context){
 
         FileSplit fileSplit = (FileSplit)split;
         Path ok = fileSplit.getPath();
 
-        if (ok.getName().contains(".pdf"))
+        MyLogUtils.debug(log, ok.getName());
+
+        if (ok.getName().contains(".pdf")) //pdf files
             return new PDFRecordReader();
-        else {
+        else {  //txt files
             String delimiter = context.getConfiguration().get("textinputformat.record.delimiter");
             byte[] recordDelimiterBytes = null;
             if (null != delimiter) {
@@ -37,11 +54,5 @@ public class SelectInputFormat extends FileInputFormat<LongWritable, Text> {
 
             return new LineRecordReader(recordDelimiterBytes);
         }
-    }
-
-    @Override
-    protected boolean isSplitable(JobContext context, Path file) {
-        CompressionCodec codec = (new CompressionCodecFactory(context.getConfiguration())).getCodec(file);
-        return null == codec ? true : codec instanceof SplittableCompressionCodec;
     }
 }

@@ -117,6 +117,7 @@ public class WordCountMapperVer02
 		StringTokenizer itr = new StringTokenizer( line );
 		
 		while ( itr.hasMoreTokens() ) {
+
 			this.word.set( itr.nextToken() );
 			context.write( this.word, WordCountMapperVer02.one);
 			

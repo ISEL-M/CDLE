@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: cdle.wordcount.mr:Ex12-WordCount-02-Lib:2020.2021.SemInv">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/cdle/wordcount/mr/Ex12-WordCount-02-Lib/2020.2021.SemInv/Ex12-WordCount-02-Lib-2020.2021.SemInv.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/cdle/wordcount/mr/Ex12-WordCount-02-Lib/2020.2021.SemInv/Ex12-WordCount-02-Lib-2020.2021.SemInv-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/cdle/wordcount/mr/Ex12-WordCount-02-Lib/2020.2021.SemInv/Ex12-WordCount-02-Lib-2020.2021.SemInv-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

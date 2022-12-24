@@ -20,18 +20,26 @@ else
 			FILE_SYSTEM_TYPE=file://
 			BASE_DIRECTORY=${HOME}/examples
 			;;
-		
+
 		"HDFS")
 			FILE_SYSTEM_TYPE=hdfs://
 			BASE_DIRECTORY=/user/${USER}
 			;;
-		
+
 		*)
 			usage
 	esac
 fi
 
 source ./usage.sh
+
+shift
+
+CFG=""
+for conf in "$@"; do
+	CFG="${CFG} ${conf}"
+done
+
 
 NUMBER_REDUCERS=2
 NUMBER_DISPLAY_LINES=5
@@ -56,21 +64,21 @@ else
 	CMD="hadoop fs -mkdir -p ${INPUT}"
 	echo -e "${CMD}"
 	${CMD}
-	
+
 	LOCAL_INPUT=file://${HOME}/examples/input/${CORPUS_NAME}
-	
+
 	echo -e "\nCopying input files to HDFS file system..."
 	CMD="hadoop fs -cp -f ${LOCAL_INPUT}/*.* ${INPUT}"
 	echo -e "${CMD}"
 	${CMD}
-	
+
 	echo -e "\nRemoving previous output..."
 	CMD="hadoop fs -rm -f -r ${OUTPUT}"
 	echo -e "\n${CMD}"
 	${CMD}
 fi
 
-ARGS="${INPUT_DIRECTORY} ${OUTPUT_DIRECTORY} ${NUMBER_REDUCERS}"
+ARGS="${CFG} ${INPUT_DIRECTORY} ${OUTPUT_DIRECTORY} ${NUMBER_REDUCERS} "
 
 echo "Exporting classpath..."
 export HADOOP_CLASSPATH=${JAR_FILE}
@@ -88,17 +96,17 @@ OUT_FILES=`hadoop fs -ls ${OUTPUT_DIRECTORY}/part-r-* | tr -s ' ' | cut -d' ' -f
 for file in ${OUT_FILES}; do
 
 	echo ""
-		
+
 	echo "Result sorted by key - MapReduce defaults - (first ${NUMBER_DISPLAY_LINES} lines)"
 	CMD="hadoop fs -text ${file} 2>/dev/null | head -n ${NUMBER_DISPLAY_LINES}"
 	echo ${CMD}
-	
+
 	hadoop fs -text ${file} 2>/dev/null | head -n ${NUMBER_DISPLAY_LINES}
-	
+
 	echo ""
 	echo "Result sorted (by value) using the linux sort command"
 	CMD="hadoop fs -text ${file} 2>/dev/null | sort -k 2,2 -n -r | head -n ${NUMBER_DISPLAY_LINES}"
 	echo ${CMD}
-	
+
 	hadoop fs -text ${file} 2>/dev/null | sort -k 2,2 -n -r | head -n ${NUMBER_DISPLAY_LINES}
 done

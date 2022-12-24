@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "MyMinecraft",
+  "version": "${version}",
+  "name": "MyMinecraft",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/MyMinecraft/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "myminecraft.myminecraft.client.MyMinecraftClient"
+    ],
+    "main": [
+      "myminecraft.myminecraft.MyMinecraft"
+    ]
+  },
+  "mixins": [
+    "MyMinecraft.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.11",
+    "fabric": "*",
+    "minecraft": "1.19.3"
+  }
+}

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="cdle.opencv.AppTest" time="0.016" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="cdle.opencv.AppTest" time="0.028" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -16,7 +16,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
-    <property name="sun.java.command" value="/home/usermr/examples/Projects/07-OpenCV/Utils-OpenCV/target/surefire/surefirebooter5364150111123740339.jar /home/usermr/examples/Projects/07-OpenCV/Utils-OpenCV/target/surefire 2022-11-21T19-02-14_010-jvmRun1 surefire3720718255155930529tmp surefire_285502505966598434073tmp"/>
+    <property name="sun.java.command" value="/home/usermr/examples/Projects/07-OpenCV/Utils-OpenCV/target/surefire/surefirebooter869497177739260478.jar /home/usermr/examples/Projects/07-OpenCV/Utils-OpenCV/target/surefire 2022-12-12T18-38-16_100-jvmRun1 surefire8388851606570451937tmp surefire_291653677215096943710tmp"/>
     <property name="surefire.test.class.path" value="/home/usermr/examples/Projects/07-OpenCV/Utils-OpenCV/target/test-classes:/home/usermr/examples/Projects/07-OpenCV/Utils-OpenCV/target/classes:/home/usermr/.m2/repository/junit/junit/4.13/junit-4.13.jar:/home/usermr/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/usermr"/>
@@ -29,13 +29,13 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/usermr/examples/Projects/07-OpenCV/Utils-OpenCV/target/surefire/surefirebooter5364150111123740339.jar"/>
+    <property name="surefire.real.class.path" value="/home/usermr/examples/Projects/07-OpenCV/Utils-OpenCV/target/surefire/surefirebooter869497177739260478.jar"/>
     <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="1.8.0_342-8u342-b07-0ubuntu1~22.04-b07"/>
+    <property name="java.runtime.version" value="1.8.0_352-8u352-ga-1~22.04-b08"/>
     <property name="user.name" value="usermr"/>
     <property name="path.separator" value=":"/>
-    <property name="os.version" value="6.0.9-arch1-1"/>
+    <property name="os.version" value="6.0.12-arch1-1"/>
     <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="ANSI_X3.4-1968"/>
@@ -43,7 +43,7 @@
     <property name="localRepository" value="/home/usermr/.m2/repository"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.io.tmpdir" value="/tmp"/>
-    <property name="java.version" value="1.8.0_342"/>
+    <property name="java.version" value="1.8.0_352"/>
     <property name="user.dir" value="/home/usermr/examples/Projects/07-OpenCV/Utils-OpenCV"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
@@ -52,10 +52,11 @@
     <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Private Build"/>
-    <property name="java.vm.version" value="25.342-b07"/>
+    <property name="java.vm.version" value="25.352-b08"/>
+    <property name="java.specification.maintenance.version" value="4"/>
     <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testApp" classname="cdle.opencv.AppTest" time="0"/>
+  <testcase name="testApp" classname="cdle.opencv.AppTest" time="0.002"/>
 </testsuite>

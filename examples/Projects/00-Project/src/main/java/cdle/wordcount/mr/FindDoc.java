@@ -3,12 +3,14 @@ package cdle.wordcount.mr;
 import cdle.wordcount.mr.pdf.SelectInputFormat;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.conf.Configured;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
+import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 import org.apache.hadoop.util.Tool;
@@ -19,12 +21,12 @@ import org.apache.hadoop.util.ToolRunner;
 public class FindDoc
 		extends Configured
 		implements Tool {
-
-	static {
+	Log log;
+	{
 		Class<?> klass;
 		klass = FindDoc.class;
 
-		Log log = LogFactory.getLog(klass);
+		log = LogFactory.getLog(klass);
 		MyLogUtils.showDebugLevel(log, klass );
 	}
 
@@ -37,11 +39,12 @@ public class FindDoc
 			System.err.println( "hadoop ... <input path> <output path> [number of reducers]" );
 			System.exit(-1);
 		}
-		
-		Job job = Job.getInstance( getConf() );
+
+		Configuration conf = getConf();
+		Job job = Job.getInstance( conf );
 		
 		job.setJarByClass( FindDoc.class );
-		job.setJobName( "Word Count Ver 1" );
+		job.setJobName( "Find Doc" );
 		
 		FileInputFormat.addInputPath(job, new Path(args[0]) );
 		FileOutputFormat.setOutputPath(job, new Path(args[1]) );
@@ -51,6 +54,9 @@ public class FindDoc
 		job.setReducerClass( FindDocReducer.class );
 		job.setInputFormatClass(SelectInputFormat.class);
 		job.setOutputFormatClass(TextOutputFormat.class);
+		//MyLogUtils.debug(this.log, conf.get("searchWord"));
+		//TextInputFormat
+
 		
 		// Output types of map function
 		job.setMapOutputKeyClass( Text.class );

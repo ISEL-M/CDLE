@@ -22,12 +22,11 @@ public class PDFRecordReader extends RecordReader<LongWritable,Text> {
     private String[] lines = null;
     private LongWritable key = null;
     private Text value = null;
-    private FSDataInputStream fileIn;
     private String fileName;
 
     @Override
     public void initialize(InputSplit genericSplit, TaskAttemptContext context)
-            throws IOException, InterruptedException {
+            throws IOException {
         FileSplit split = (FileSplit)genericSplit;
         Configuration job = context.getConfiguration();
 
@@ -35,7 +34,7 @@ public class PDFRecordReader extends RecordReader<LongWritable,Text> {
         Path file = split.getPath();
         fileName = file.getName();
         FileSystem fs = file.getFileSystem(job);
-        this.fileIn = fs.open(file);
+        FSDataInputStream fileIn = fs.open(file);
 
         PDDocument pdf = Loader.loadPDF(fileIn);
         PDFTextStripper stripper = new PDFTextStripper();
@@ -48,9 +47,10 @@ public class PDFRecordReader extends RecordReader<LongWritable,Text> {
 
         if (key == null) {
             key = new LongWritable();
-            key.set(0);
+            key.set(1);
             value = new Text();
-            value.set(fileName);
+            value.set(lines[0]);
+            return true;
         } else {
             int temp = (int) key.get();
             if (temp < (lines.length - 1)) {
@@ -59,30 +59,26 @@ public class PDFRecordReader extends RecordReader<LongWritable,Text> {
                 value.set(lines[count]);
                 count = count + 1;
                 key = new LongWritable(count);
+                return true;
             } else {
                 return false;
             }
-
         }
-        return key != null && value != null;
     }
 
     @Override
     public LongWritable getCurrentKey() throws IOException,
             InterruptedException {
-
         return key;
     }
 
     @Override
     public Text getCurrentValue() throws IOException, InterruptedException {
-
         return value;
     }
 
     @Override
     public float getProgress() throws IOException, InterruptedException {
-
         return 0;
     }
 

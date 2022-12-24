@@ -13,6 +13,8 @@ function showMessage() {
 #
 # Hadoop configuration files
 #
+
+shift
 CFG=""
 for conf in "$@"; do
 	CFG="${CFG} ${conf}"
