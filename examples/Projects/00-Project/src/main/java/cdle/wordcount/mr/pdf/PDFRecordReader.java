@@ -1,5 +1,9 @@
 package cdle.wordcount.mr.pdf;
 
+import cdle.wordcount.mr.FindDoc;
+import cdle.wordcount.mr.MyLogUtils;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FSDataInputStream;
 import org.apache.hadoop.fs.FileSystem;
@@ -19,6 +23,7 @@ import java.io.IOException;
 
 
 public class PDFRecordReader extends RecordReader<LongWritable,Text> {
+
     private String[] lines = null;
     private LongWritable key = null;
     private Text value = null;
@@ -44,18 +49,17 @@ public class PDFRecordReader extends RecordReader<LongWritable,Text> {
 
     @Override
     public boolean nextKeyValue() throws IOException, InterruptedException {
-
         if (key == null) {
             key = new LongWritable();
-            key.set(1);
+            key.set(0);
             value = new Text();
-            value.set(lines[0]);
+            value.set(fileName);
             return true;
         } else {
+
             int temp = (int) key.get();
-            if (temp < (lines.length - 1)) {
+            if (temp < (lines.length)) {
                 int count = (int) key.get();
-                value = new Text();
                 value.set(lines[count]);
                 count = count + 1;
                 key = new LongWritable(count);
@@ -67,13 +71,12 @@ public class PDFRecordReader extends RecordReader<LongWritable,Text> {
     }
 
     @Override
-    public LongWritable getCurrentKey() throws IOException,
-            InterruptedException {
+    public LongWritable getCurrentKey(){
         return key;
     }
 
     @Override
-    public Text getCurrentValue() throws IOException, InterruptedException {
+    public Text getCurrentValue(){
         return value;
     }
 
@@ -83,7 +86,6 @@ public class PDFRecordReader extends RecordReader<LongWritable,Text> {
     }
 
     @Override
-    public void close() throws IOException {
-
+    public void close() {
     }
 }

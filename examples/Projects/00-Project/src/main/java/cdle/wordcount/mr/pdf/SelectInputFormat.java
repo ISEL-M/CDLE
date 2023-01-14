@@ -21,27 +21,11 @@ import org.apache.hadoop.mapreduce.lib.input.FileSplit;
 import org.apache.hadoop.mapreduce.lib.input.LineRecordReader;
 
 public class SelectInputFormat extends FileInputFormat<LongWritable, Text> {
-    private static Log log;
-
-    static {
-        Class<?> klass;
-        klass = org.apache.hadoop.mapreduce.Mapper.class;
-
-        log = LogFactory.getLog( klass );
-        MyLogUtils.showDebugLevel( log, klass );
-
-        klass = FindDocMapper.class;
-
-        log = LogFactory.getLog( klass );
-        MyLogUtils.showDebugLevel( log, klass );
-    }
     @Override
     public RecordReader<LongWritable,Text> createRecordReader( InputSplit split, TaskAttemptContext context){
 
         FileSplit fileSplit = (FileSplit)split;
         Path ok = fileSplit.getPath();
-
-        MyLogUtils.debug(log, ok.getName());
 
         if (ok.getName().contains(".pdf")) //pdf files
             return new PDFRecordReader();

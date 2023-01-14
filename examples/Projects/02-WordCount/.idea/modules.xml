@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/02-WordCount.iml" filepath="$PROJECT_DIR$/02-WordCount.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ex10-WordCount-01/Ex10-WordCount-01.iml" filepath="$PROJECT_DIR$/Ex10-WordCount-01/Ex10-WordCount-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ex11-WordCount-02/Ex11-WordCount-02.iml" filepath="$PROJECT_DIR$/Ex11-WordCount-02/Ex11-WordCount-02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ex12-WordCount-02-Lib/Ex12-WordCount-02-Lib.iml" filepath="$PROJECT_DIR$/Ex12-WordCount-02-Lib/Ex12-WordCount-02-Lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ex13-WordCount-02/Ex13-WordCount-02.iml" filepath="$PROJECT_DIR$/Ex13-WordCount-02/Ex13-WordCount-02.iml" />
+    </modules>
+  </component>
+</project>
