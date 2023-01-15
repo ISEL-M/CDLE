@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<configuration>
+    <property>
+        <name>searchWord</name>
+        <value>ok</value>
+    </property>
+    <property>
+        <name>case</name>
+        <value>1</value>
+    </property>
+</configuration>

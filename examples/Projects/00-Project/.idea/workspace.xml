@@ -5,42 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff815f50-8743-4b4f-a510-35e7d27a3b6a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Configs/words1.0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Configs/words1.1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Configs/words1.2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Configs/words1.3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Configs/words3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Configs/words4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cdle/wordcount/mr/FindDocCombiner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cdle/wordcount/mr/recordReader/TXTRecordReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Configs/words.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Configs/words.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Configs/words1.0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Configs/words1.1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Configs/words1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Configs/words1.2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Configs/words1.3.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Configs/words2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Configs/words2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Configs/words3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Configs/words3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Configs/words4.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/run.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cdle/wordcount/mr/FindDoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cdle/wordcount/mr/FindDoc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cdle/wordcount/mr/FindDocMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cdle/wordcount/mr/FindDocMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cdle/wordcount/mr/pdf/PDFRecordReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cdle/wordcount/mr/recordReader/PDFRecordReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cdle/wordcount/mr/pdf/SelectInputFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cdle/wordcount/mr/FindDocInputFormat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/00-Project-2020.2021.SemInv-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/00-Project-2020.2021.SemInv-jar-with-dependencies.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/00-Project-2020.2021.SemInv.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/00-Project-2020.2021.SemInv.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cdle/wordcount/mr/FindDoc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cdle/wordcount/mr/FindDoc.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cdle/wordcount/mr/FindDocMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cdle/wordcount/mr/FindDocMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cdle/wordcount/mr/pdf/PDFRecordReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cdle/wordcount/mr/pdf/SelectInputFormat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-cdle.wordcount.mr.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-cdle.wordcount.mr.AppTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/cdle.wordcount.mr.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/cdle.wordcount.mr.AppTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../input/project 2/ok.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../input/project 2/ok1.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../input/project 2/ok2.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../input/project 2/ok3.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../input/project/test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../output/project/._SUCCESS.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../output/project/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../input/project/cdle articles.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../output/project/.part-r-00000.crc" beforeDir="false" afterPath="$PROJECT_DIR$/../../output/project/.part-r-00000.crc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../output/project/.part-r-00001.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../output/project/_SUCCESS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../output/project/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../output/project/part-r-00000" beforeDir="false" afterPath="$PROJECT_DIR$/../../output/project/part-r-00000" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../output/project/part-r-00001" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

@@ -41,7 +41,7 @@ for conf in "$@"; do
 done
 
 
-NUMBER_REDUCERS=2
+NUMBER_REDUCERS=5
 if [[ $# -ge 3 ]]; then
   NUMBER_REDUCERS=7
   echo -e ""

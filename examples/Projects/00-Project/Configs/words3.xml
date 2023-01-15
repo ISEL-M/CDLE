@@ -3,6 +3,14 @@
 <configuration>
     <property>
         <name>searchWord</name>
-        <value>ok3</value>
+        <value>ok</value>
+    </property>
+    <property>
+        <name>wholeWord</name>
+        <value>1</value>
+    </property>
+    <property>
+        <name>case</name>
+        <value>1</value>
     </property>
 </configuration>

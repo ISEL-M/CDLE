@@ -38,6 +38,7 @@ public class FindDoc
 			System.exit(-1);
 		}
 
+
 		Configuration conf = getConf();
 		Job job = Job.getInstance( conf );
 		

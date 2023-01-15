@@ -15,7 +15,7 @@ public class FindDocMapper
 	Log log;
 	{
 		Class<?> klass;
-		klass = FindDoc.class;
+		klass = FindDocMapper.class;
 
 		log = LogFactory.getLog(klass);
 		MyLogUtils.showDebugLevel(log, klass );
@@ -30,14 +30,17 @@ public class FindDocMapper
 
 		Configuration conf = context.getConfiguration();
 		StringTokenizer itr = new StringTokenizer(value.toString());
-		MyLogUtils.debug(log, value.toString());
+
+		String searchWord = conf.get("searchWord", ""),
+				caseSensitive = conf.get("case"),
+				wholeWord = conf.get("wholeWord");
+
+		if(searchWord.equals("")) return;
 
 
-		String searchWord = conf.get("searchWord").toLowerCase();
 		int wordNumber = searchWord.split(" ").length;
 
 		List<String> words = new ArrayList<>();
-
 		while (itr.hasMoreTokens()) {
 			if (fileName.toString().equals("")){
 				fileName.set(itr.nextToken());
@@ -48,8 +51,18 @@ public class FindDocMapper
 			words.add( itr.nextToken());
 
 			String wordCompare = String.join(" ", words);
-			if (wordCompare.toLowerCase().equals(searchWord))
-				context.write(fileName, count);
+
+			if (caseSensitive==null) {
+				searchWord = searchWord.toLowerCase();
+				wordCompare = wordCompare.toLowerCase();
+			}
+			if(wholeWord==null) {
+				if (wordCompare.contains(searchWord))
+					context.write(fileName, count);
+			} else {
+				if (wordCompare.equals(searchWord))
+					context.write(fileName, count);
+			}
 		}
 	}
 }
