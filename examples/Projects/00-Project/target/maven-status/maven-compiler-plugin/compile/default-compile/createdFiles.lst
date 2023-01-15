@@ -1,6 +1,8 @@
-cdle/wordcount/mr/pdf/PDFRecordReader.class
 cdle/wordcount/mr/FindDoc.class
-cdle/wordcount/mr/FindDocReducer.class
-cdle/wordcount/mr/pdf/SelectInputFormat.class
-cdle/wordcount/mr/FindDocMapper.class
+cdle/wordcount/mr/FindDocCombiner.class
+cdle/wordcount/mr/FindDocInputFormat.class
+cdle/wordcount/mr/recordReader/PDFRecordReader.class
 cdle/wordcount/mr/MyLogUtils.class
+cdle/wordcount/mr/FindDocReducer.class
+cdle/wordcount/mr/FindDocMapper.class
+cdle/wordcount/mr/recordReader/TXTRecordReader.class

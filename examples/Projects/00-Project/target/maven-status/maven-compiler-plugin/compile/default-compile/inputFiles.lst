@@ -1,6 +1,8 @@
 /home/usermr/examples/Projects/00-Project/src/main/java/cdle/wordcount/mr/FindDoc.java
 /home/usermr/examples/Projects/00-Project/src/main/java/cdle/wordcount/mr/MyLogUtils.java
-/home/usermr/examples/Projects/00-Project/src/main/java/cdle/wordcount/mr/pdf/SelectInputFormat.java
-/home/usermr/examples/Projects/00-Project/src/main/java/cdle/wordcount/mr/pdf/PDFRecordReader.java
+/home/usermr/examples/Projects/00-Project/src/main/java/cdle/wordcount/mr/FindDocInputFormat.java
+/home/usermr/examples/Projects/00-Project/src/main/java/cdle/wordcount/mr/FindDocCombiner.java
+/home/usermr/examples/Projects/00-Project/src/main/java/cdle/wordcount/mr/recordReader/PDFRecordReader.java
 /home/usermr/examples/Projects/00-Project/src/main/java/cdle/wordcount/mr/FindDocReducer.java
 /home/usermr/examples/Projects/00-Project/src/main/java/cdle/wordcount/mr/FindDocMapper.java
+/home/usermr/examples/Projects/00-Project/src/main/java/cdle/wordcount/mr/recordReader/TXTRecordReader.java

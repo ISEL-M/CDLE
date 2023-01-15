@@ -1,6 +1,5 @@
 package cdle.wordcount.mr;
 
-import cdle.wordcount.mr.pdf.SelectInputFormat;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.apache.hadoop.conf.Configuration;
@@ -10,7 +9,6 @@ import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
-import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 import org.apache.hadoop.util.Tool;
@@ -50,9 +48,11 @@ public class FindDoc
 		FileOutputFormat.setOutputPath(job, new Path(args[1]) );
 		
 		job.setMapperClass( FindDocMapper.class );
-		job.setCombinerClass( FindDocReducer.class );
+		job.setCombinerClass( FindDocCombiner.class );
 		job.setReducerClass( FindDocReducer.class );
-		job.setInputFormatClass(SelectInputFormat.class);
+
+
+		job.setInputFormatClass(FindDocInputFormat.class);
 		job.setOutputFormatClass(TextOutputFormat.class);
 		//MyLogUtils.debug(this.log, conf.get("searchWord"));
 		//TextInputFormat

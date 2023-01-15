@@ -42,7 +42,14 @@ done
 
 
 NUMBER_REDUCERS=2
-NUMBER_DISPLAY_LINES=5
+if [[ $# -ge 3 ]]; then
+  NUMBER_REDUCERS=7
+  echo -e ""
+  echo -e "ok2"
+  echo -e $NUMBER_REDUCERS
+  echo -e ""
+fi
+NUMBER_DISPLAY_LINES=10
 
 CORPUS_NAME=project
 
@@ -94,14 +101,6 @@ ${CMD}
 OUT_FILES=`hadoop fs -ls ${OUTPUT_DIRECTORY}/part-r-* | tr -s ' ' | cut -d' ' -f8`
 
 for file in ${OUT_FILES}; do
-
-	echo ""
-
-	echo "Result sorted by key - MapReduce defaults - (first ${NUMBER_DISPLAY_LINES} lines)"
-	CMD="hadoop fs -text ${file} 2>/dev/null | head -n ${NUMBER_DISPLAY_LINES}"
-	echo ${CMD}
-
-	hadoop fs -text ${file} 2>/dev/null | head -n ${NUMBER_DISPLAY_LINES}
 
 	echo ""
 	echo "Result sorted (by value) using the linux sort command"
