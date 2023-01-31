@@ -41,14 +41,7 @@ for conf in "$@"; do
 done
 
 
-NUMBER_REDUCERS=5
-if [[ $# -ge 3 ]]; then
-  NUMBER_REDUCERS=7
-  echo -e ""
-  echo -e "ok2"
-  echo -e $NUMBER_REDUCERS
-  echo -e ""
-fi
+NUMBER_REDUCERS=1
 NUMBER_DISPLAY_LINES=10
 
 CORPUS_NAME=project

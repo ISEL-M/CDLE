@@ -8,7 +8,7 @@ HADOOP_COMPILE_CLASSPATH=`hadoop classpath`
 CURRENT_DIRECTORY=`pwd`
 
 SRC_DIR=${CURRENT_DIRECTORY}/src/main/java
-JAR_FILE=`ls ${CURRENT_DIRECTORY}/target/*.jar`
+JAR_FILE=`ls ${CURRENT_DIRECTORY}/target/*dependencies.jar`
 
 #
 # Identifying main class

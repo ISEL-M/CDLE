@@ -3,7 +3,7 @@
 <configuration>
     <property>
         <name>searchWord</name>
-        <value>ok</value>
+        <value>skin cancer</value>
     </property>
     <property>
         <name>wholeWord</name>

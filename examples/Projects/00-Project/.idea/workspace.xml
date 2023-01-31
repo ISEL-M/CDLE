@@ -6,27 +6,369 @@
   <component name="ChangeListManager">
     <list default="true" id="ff815f50-8743-4b4f-a510-35e7d27a3b6a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Configs/words1.0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Configs/words1.1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Configs/words1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Configs/words1.2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Configs/words1.3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Configs/words2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Configs/words2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Configs/words3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Configs/words3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Configs/words4.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/run.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cdle/wordcount/mr/FindDoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cdle/wordcount/mr/FindDoc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cdle/wordcount/mr/FindDocMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cdle/wordcount/mr/FindDocMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/00-Project-2020.2021.SemInv-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/00-Project-2020.2021.SemInv-jar-with-dependencies.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/00-Project-2020.2021.SemInv.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/00-Project-2020.2021.SemInv.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cdle/wordcount/mr/FindDoc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cdle/wordcount/mr/FindDoc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cdle/wordcount/mr/FindDocMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cdle/wordcount/mr/FindDocMapper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-cdle.wordcount.mr.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-cdle.wordcount.mr.AppTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/cdle.wordcount.mr.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/cdle.wordcount.mr.AppTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../input/project/cdle articles.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../output/project/.part-r-00000.crc" beforeDir="false" afterPath="$PROJECT_DIR$/../../output/project/.part-r-00000.crc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../output/project/.part-r-00001.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../output/project/part-r-00000" beforeDir="false" afterPath="$PROJECT_DIR$/../../output/project/part-r-00000" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../output/project/part-r-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usage.sh" beforeDir="false" afterPath="$PROJECT_DIR$/usage.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex01-Temperatures-01/target/Ex01-Temperatures-01-2020.2021.SemInv.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex01-Temperatures-01/target/classes/cdle/temperatures/mr/MaxTemperatureApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex01-Temperatures-01/target/classes/cdle/temperatures/mr/MaxTemperatureMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex01-Temperatures-01/target/classes/cdle/temperatures/mr/MaxTemperatureReducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex01-Temperatures-01/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex01-Temperatures-01/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex01-Temperatures-01/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex01-Temperatures-01/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex01-Temperatures-01/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex01-Temperatures-01/target/surefire-reports/TEST-cdle.temperatures.mr.AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex01-Temperatures-01/target/surefire-reports/cdle.temperatures.mr.AppTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex01-Temperatures-01/target/test-classes/cdle/temperatures/mr/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex02-Temperatures-02/target/Ex02-Temperatures-02-2020.2021.SemInv.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex02-Temperatures-02/target/classes/cdle/temperatures/mr/MaxTemperatureApplicationWithCompression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex02-Temperatures-02/target/classes/cdle/temperatures/mr/MaxTemperatureMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex02-Temperatures-02/target/classes/cdle/temperatures/mr/MaxTemperatureReducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex02-Temperatures-02/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex02-Temperatures-02/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex02-Temperatures-02/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex02-Temperatures-02/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex02-Temperatures-02/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex02-Temperatures-02/target/surefire-reports/TEST-cdle.temperatures.mr.AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex02-Temperatures-02/target/surefire-reports/cdle.temperatures.mr.AppTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex02-Temperatures-02/target/test-classes/cdle/temperatures/mr/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex03-Temperatures-03/target/Ex03-Temperatures-03-2020.2021.SemInv.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex03-Temperatures-03/target/classes/cdle/temperatures/mr/MaxTemperatureApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex03-Temperatures-03/target/classes/cdle/temperatures/mr/MaxTemperatureMapper$Temperature.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex03-Temperatures-03/target/classes/cdle/temperatures/mr/MaxTemperatureMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex03-Temperatures-03/target/classes/cdle/temperatures/mr/MaxTemperatureReducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex03-Temperatures-03/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex03-Temperatures-03/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex03-Temperatures-03/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex03-Temperatures-03/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex03-Temperatures-03/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex03-Temperatures-03/target/surefire-reports/TEST-cdle.temperatures.mr.AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex03-Temperatures-03/target/surefire-reports/cdle.temperatures.mr.AppTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex03-Temperatures-03/target/test-classes/cdle/temperatures/mr/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex04-Temperatures-03-Lib/target/Ex04-Temperatures-03-Lib-2020.2021.SemInv.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex04-Temperatures-03-Lib/target/classes/cdle/temperatures/mr/NcdcRecordParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex04-Temperatures-03-Lib/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex04-Temperatures-03-Lib/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex04-Temperatures-03-Lib/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex04-Temperatures-03-Lib/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex04-Temperatures-03-Lib/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex04-Temperatures-03-Lib/target/surefire-reports/TEST-cdle.temperatures.mr.AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex04-Temperatures-03-Lib/target/surefire-reports/cdle.temperatures.mr.AppTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex04-Temperatures-03-Lib/target/test-classes/cdle/temperatures/mr/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex05-Temperatures-04/target/Ex05-Temperatures-04-2020.2021.SemInv.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex05-Temperatures-04/target/classes/cdle/temperatures/mr/CleanerApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex05-Temperatures-04/target/classes/cdle/temperatures/mr/CleanerMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex05-Temperatures-04/target/classes/cdle/temperatures/mr/NcdcRecordParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex05-Temperatures-04/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex05-Temperatures-04/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex05-Temperatures-04/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex05-Temperatures-04/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex05-Temperatures-04/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex05-Temperatures-04/target/surefire-reports/TEST-cdle.temperatures.mr.AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex05-Temperatures-04/target/surefire-reports/cdle.temperatures.mr.AppTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex05-Temperatures-04/target/test-classes/cdle/temperatures/mr/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex06-Temperatures-05/target/Ex06-Temperatures-05-2020.2021.SemInv.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex06-Temperatures-05/target/classes/cdle/temperatures/mr/SortByTemperatureMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex06-Temperatures-05/target/classes/cdle/temperatures/mr/SortByTemperatureReducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex06-Temperatures-05/target/classes/cdle/temperatures/mr/SortByTemperatureUsingHashPartitionerApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex06-Temperatures-05/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex06-Temperatures-05/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex06-Temperatures-05/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex06-Temperatures-05/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex06-Temperatures-05/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex06-Temperatures-05/target/surefire-reports/TEST-cdle.temperatures.mr.AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex06-Temperatures-05/target/surefire-reports/cdle.temperatures.mr.AppTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex06-Temperatures-05/target/test-classes/cdle/temperatures/mr/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex07-Temperatures-06/target/Ex07-Temperatures-06-2020.2021.SemInv.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex07-Temperatures-06/target/classes/cdle/temperatures/mr/SortByTemperatureMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex07-Temperatures-06/target/classes/cdle/temperatures/mr/SortByTemperatureReducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex07-Temperatures-06/target/classes/cdle/temperatures/mr/SortByTemperatureUsingTotalOrderPartitionerApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex07-Temperatures-06/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex07-Temperatures-06/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex07-Temperatures-06/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex07-Temperatures-06/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex07-Temperatures-06/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex07-Temperatures-06/target/surefire-reports/TEST-cdle.temperatures.mr.AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex07-Temperatures-06/target/surefire-reports/cdle.temperatures.mr.AppTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex07-Temperatures-06/target/test-classes/cdle/temperatures/mr/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex08-Temperatures-07/target/Ex08-Temperatures-07-2020.2021.SemInv.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex08-Temperatures-07/target/classes/cdle/temperatures/mr/MaxTemperatureApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex08-Temperatures-07/target/classes/cdle/temperatures/mr/MaxTemperatureGroupComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex08-Temperatures-07/target/classes/cdle/temperatures/mr/MaxTemperatureKeyComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex08-Temperatures-07/target/classes/cdle/temperatures/mr/MaxTemperatureMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex08-Temperatures-07/target/classes/cdle/temperatures/mr/MaxTemperaturePartitioner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex08-Temperatures-07/target/classes/cdle/temperatures/mr/MaxTemperatureReducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex08-Temperatures-07/target/classes/cdle/temperatures/mr/NcdcRecordParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex08-Temperatures-07/target/classes/cdle/temperatures/mr/TemperaturePair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex08-Temperatures-07/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex08-Temperatures-07/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex08-Temperatures-07/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex08-Temperatures-07/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex08-Temperatures-07/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex08-Temperatures-07/target/surefire-reports/TEST-cdle.temperatures.mr.AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex08-Temperatures-07/target/surefire-reports/cdle.temperatures.mr.AppTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex08-Temperatures-07/target/test-classes/cdle/temperatures/mr/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex09-Temperatures-08/target/Ex09-Temperatures-08-2020.2021.SemInv.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex09-Temperatures-08/target/classes/cdle/temperatures/mr/MaxTemperatureDriver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex09-Temperatures-08/target/classes/cdle/temperatures/mr/MaxTemperatureMapperVer01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex09-Temperatures-08/target/classes/cdle/temperatures/mr/MaxTemperatureMapperVer02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex09-Temperatures-08/target/classes/cdle/temperatures/mr/MaxTemperatureReducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex09-Temperatures-08/target/classes/cdle/temperatures/mr/NcdcRecordParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex09-Temperatures-08/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex09-Temperatures-08/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex09-Temperatures-08/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex09-Temperatures-08/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex09-Temperatures-08/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex09-Temperatures-08/target/surefire-reports/TEST-cdle.temperatures.mr.MaxTemperatureMapperTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex09-Temperatures-08/target/surefire-reports/cdle.temperatures.mr.MaxTemperatureMapperTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Temperatures/Ex09-Temperatures-08/target/test-classes/cdle/temperatures/mr/MaxTemperatureMapperTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-WordCount/Ex10-WordCount-01/target/Ex10-WordCount-01-2020.2021.SemInv.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-WordCount/Ex10-WordCount-01/target/classes/cdle/wordcount/mr/WordCountApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-WordCount/Ex10-WordCount-01/target/classes/cdle/wordcount/mr/WordCountMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-WordCount/Ex10-WordCount-01/target/classes/cdle/wordcount/mr/WordCountReducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-WordCount/Ex10-WordCount-01/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-WordCount/Ex10-WordCount-01/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-WordCount/Ex10-WordCount-01/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-WordCount/Ex10-WordCount-01/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-WordCount/Ex10-WordCount-01/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-WordCount/Ex10-WordCount-01/target/surefire-reports/TEST-cdle.wordcount.mr.AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-WordCount/Ex10-WordCount-01/target/surefire-reports/cdle.wordcount.mr.AppTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-WordCount/Ex10-WordCount-01/target/test-classes/cdle/wordcount/mr/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-WordCount/Ex11-WordCount-02/target/Ex11-WordCount-02-2020.2021.SemInv.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-WordCount/Ex11-WordCount-02/target/classes/cdle/wordcount/mr/WordCountApplicationVer02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-WordCount/Ex11-WordCount-02/target/classes/cdle/wordcount/mr/WordCountCombinerVer02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-WordCount/Ex11-WordCount-02/target/classes/cdle/wordcount/mr/WordCountMapperVer02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-WordCount/Ex11-WordCount-02/target/classes/cdle/wordcount/mr/WordCountReducerVer02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-WordCount/Ex11-WordCount-02/target/classes/cdle/wordcount/mr/formaters/input/MyFileInputFormat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-WordCount/Ex11-WordCount-02/target/classes/cdle/wordcount/mr/formaters/input/MyLogUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-WordCount/Ex11-WordCount-02/target/classes/cdle/wordcount/mr/formaters/input/MyTextInputFormat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-WordCount/Ex11-WordCount-02/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-WordCount/Ex11-WordCount-02/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-WordCount/Ex11-WordCount-02/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-WordCount/Ex11-WordCount-02/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-WordCount/Ex11-WordCount-02/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-WordCount/Ex11-WordCount-02/target/surefire-reports/TEST-cdle.wordcount.mr.AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-WordCount/Ex11-WordCount-02/target/surefire-reports/cdle.wordcount.mr.AppTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-WordCount/Ex11-WordCount-02/target/test-classes/cdle/wordcount/mr/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-WordCount/Ex12-WordCount-02-Lib/target/Ex12-WordCount-02-Lib-2020.2021.SemInv.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-WordCount/Ex12-WordCount-02-Lib/target/classes/cdle/wordcount/mr/WordCountUtils$Statistics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-WordCount/Ex12-WordCount-02-Lib/target/classes/cdle/wordcount/mr/WordCountUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-WordCount/Ex12-WordCount-02-Lib/target/classes/cdle/wordcount/mr/formaters/input/MyFileInputFormat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-WordCount/Ex12-WordCount-02-Lib/target/classes/cdle/wordcount/mr/formaters/input/MyLogUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-WordCount/Ex12-WordCount-02-Lib/target/classes/cdle/wordcount/mr/formaters/input/MyTextInputFormat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-WordCount/Ex12-WordCount-02-Lib/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-WordCount/Ex12-WordCount-02-Lib/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-WordCount/Ex12-WordCount-02-Lib/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-WordCount/Ex12-WordCount-02-Lib/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-WordCount/Ex12-WordCount-02-Lib/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-WordCount/Ex12-WordCount-02-Lib/target/surefire-reports/TEST-cdle.wordcount.mr.AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-WordCount/Ex12-WordCount-02-Lib/target/surefire-reports/cdle.wordcount.mr.AppTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-WordCount/Ex12-WordCount-02-Lib/target/test-classes/cdle/wordcount/mr/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-WordCount/Ex13-WordCount-02/target/Ex13-WordCount-02-2020.2021.SemInv.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-WordCount/Ex13-WordCount-02/target/classes/cdle/wordcount/mr/WordCountApplicationVer02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-WordCount/Ex13-WordCount-02/target/classes/cdle/wordcount/mr/WordCountCombinerVer02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-WordCount/Ex13-WordCount-02/target/classes/cdle/wordcount/mr/WordCountMapperVer02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-WordCount/Ex13-WordCount-02/target/classes/cdle/wordcount/mr/WordCountReducerVer02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-WordCount/Ex13-WordCount-02/target/classes/cdle/wordcount/mr/formaters/input/MyFileInputFormat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-WordCount/Ex13-WordCount-02/target/classes/cdle/wordcount/mr/formaters/input/MyLogUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-WordCount/Ex13-WordCount-02/target/classes/cdle/wordcount/mr/formaters/input/MyTextInputFormat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-WordCount/Ex13-WordCount-02/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-WordCount/Ex13-WordCount-02/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-WordCount/Ex13-WordCount-02/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-WordCount/Ex13-WordCount-02/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-WordCount/Ex13-WordCount-02/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-WordCount/Ex13-WordCount-02/target/surefire-reports/TEST-cdle.wordcount.mr.AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-WordCount/Ex13-WordCount-02/target/surefire-reports/cdle.wordcount.mr.AppTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-WordCount/Ex13-WordCount-02/target/test-classes/cdle/wordcount/mr/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-FileSystem/Ex13-Cat/target/Ex13-Cat-2020.2021.SemInv.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-FileSystem/Ex13-Cat/target/classes/cdle/filesystem/mr/MyCat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-FileSystem/Ex13-Cat/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-FileSystem/Ex13-Cat/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-FileSystem/Ex13-Cat/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-FileSystem/Ex13-Cat/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-FileSystem/Ex13-Cat/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-FileSystem/Ex13-Cat/target/surefire-reports/TEST-cdle.filesystem.mr.AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-FileSystem/Ex13-Cat/target/surefire-reports/cdle.filesystem.mr.AppTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-FileSystem/Ex13-Cat/target/test-classes/cdle/filesystem/mr/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-FileSystem/Ex14-CatFileSystem-01/target/Ex14-CatFileSystem-01-2020.2021.SemInv.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-FileSystem/Ex14-CatFileSystem-01/target/classes/cdle/filesystem/mr/MyCatFileSystem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-FileSystem/Ex14-CatFileSystem-01/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-FileSystem/Ex14-CatFileSystem-01/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-FileSystem/Ex14-CatFileSystem-01/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-FileSystem/Ex14-CatFileSystem-01/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-FileSystem/Ex14-CatFileSystem-01/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-FileSystem/Ex14-CatFileSystem-01/target/surefire-reports/TEST-cdle.filesystem.mr.AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-FileSystem/Ex14-CatFileSystem-01/target/surefire-reports/cdle.filesystem.mr.AppTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-FileSystem/Ex14-CatFileSystem-01/target/test-classes/cdle/filesystem/mr/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-FileSystem/Ex15-CatFileSystem-02/target/Ex15-CatFileSystem-02-2020.2021.SemInv.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-FileSystem/Ex15-CatFileSystem-02/target/classes/cdle/filesystem/mr/MyCatFileSystemTwice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-FileSystem/Ex15-CatFileSystem-02/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-FileSystem/Ex15-CatFileSystem-02/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-FileSystem/Ex15-CatFileSystem-02/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-FileSystem/Ex15-CatFileSystem-02/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-FileSystem/Ex15-CatFileSystem-02/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-FileSystem/Ex15-CatFileSystem-02/target/surefire-reports/TEST-cdle.filesystem.mr.AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-FileSystem/Ex15-CatFileSystem-02/target/surefire-reports/cdle.filesystem.mr.AppTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-FileSystem/Ex15-CatFileSystem-02/target/test-classes/cdle/filesystem/mr/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-FileSystem/Ex16-FileCopyWithProgress/target/Ex16-FileCopyWithProgress-2020.2021.SemInv.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-FileSystem/Ex16-FileCopyWithProgress/target/classes/cdle/filesystem/mr/MyFileCopyWithProgress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-FileSystem/Ex16-FileCopyWithProgress/target/classes/cdle/filesystem/mr/MyProgressable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-FileSystem/Ex16-FileCopyWithProgress/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-FileSystem/Ex16-FileCopyWithProgress/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-FileSystem/Ex16-FileCopyWithProgress/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-FileSystem/Ex16-FileCopyWithProgress/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-FileSystem/Ex16-FileCopyWithProgress/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-FileSystem/Ex16-FileCopyWithProgress/target/surefire-reports/TEST-cdle.filesystem.mr.AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-FileSystem/Ex16-FileCopyWithProgress/target/surefire-reports/cdle.filesystem.mr.AppTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-FileSystem/Ex16-FileCopyWithProgress/target/test-classes/cdle/filesystem/mr/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-FileSystem/Ex17-ListStatus/target/Ex17-ListStatus-2020.2021.SemInv.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-FileSystem/Ex17-ListStatus/target/classes/cdle/filesystem/mr/MyListStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-FileSystem/Ex17-ListStatus/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-FileSystem/Ex17-ListStatus/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-FileSystem/Ex17-ListStatus/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-FileSystem/Ex17-ListStatus/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-FileSystem/Ex17-ListStatus/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-FileSystem/Ex17-ListStatus/target/surefire-reports/TEST-cdle.filesystem.mr.AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-FileSystem/Ex17-ListStatus/target/surefire-reports/cdle.filesystem.mr.AppTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-FileSystem/Ex17-ListStatus/target/test-classes/cdle/filesystem/mr/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-Streams/Ex18-StreamCompressor/target/Ex18-StreamCompressor-2020.2021.SemInv.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-Streams/Ex18-StreamCompressor/target/classes/cdle/streams/mr/MyStreamCompressor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-Streams/Ex18-StreamCompressor/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-Streams/Ex18-StreamCompressor/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-Streams/Ex18-StreamCompressor/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-Streams/Ex18-StreamCompressor/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-Streams/Ex18-StreamCompressor/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-Streams/Ex18-StreamCompressor/target/surefire-reports/TEST-cdle.streams.mr.AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-Streams/Ex18-StreamCompressor/target/surefire-reports/cdle.streams.mr.AppTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-Streams/Ex18-StreamCompressor/target/test-classes/cdle/streams/mr/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-Streams/Ex19-FileDecompressor-01/target/Ex19-FileDecompressor-01-2020.2021.SemInv.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-Streams/Ex19-FileDecompressor-01/target/classes/cdle/streams/mr/MyFileDecompressorVer01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-Streams/Ex19-FileDecompressor-01/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-Streams/Ex19-FileDecompressor-01/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-Streams/Ex19-FileDecompressor-01/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-Streams/Ex19-FileDecompressor-01/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-Streams/Ex19-FileDecompressor-01/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-Streams/Ex19-FileDecompressor-01/target/surefire-reports/TEST-cdle.streams.mr.AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-Streams/Ex19-FileDecompressor-01/target/surefire-reports/cdle.streams.mr.AppTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-Streams/Ex19-FileDecompressor-01/target/test-classes/cdle/streams/mr/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-Streams/Ex20-FileDecompressor-02/target/Ex20-FileDecompressor-02-2020.2021.SemInv.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-Streams/Ex20-FileDecompressor-02/target/classes/cdle/streams/mr/MyFileDecompressorVer02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-Streams/Ex20-FileDecompressor-02/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-Streams/Ex20-FileDecompressor-02/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-Streams/Ex20-FileDecompressor-02/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-Streams/Ex20-FileDecompressor-02/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-Streams/Ex20-FileDecompressor-02/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-Streams/Ex20-FileDecompressor-02/target/surefire-reports/TEST-cdle.streams.mr.AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-Streams/Ex20-FileDecompressor-02/target/surefire-reports/cdle.streams.mr.AppTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-Streams/Ex20-FileDecompressor-02/target/test-classes/cdle/streams/mr/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-Streams/Ex21-PooledStreamCompressor/target/Ex21-PooledStreamCompressor-2020.2021.SemInv.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-Streams/Ex21-PooledStreamCompressor/target/classes/cdle/streams/mr/MyPooledStreamCompressor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-Streams/Ex21-PooledStreamCompressor/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-Streams/Ex21-PooledStreamCompressor/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-Streams/Ex21-PooledStreamCompressor/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-Streams/Ex21-PooledStreamCompressor/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-Streams/Ex21-PooledStreamCompressor/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-Streams/Ex21-PooledStreamCompressor/target/surefire-reports/TEST-cdle.streams.mr.AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-Streams/Ex21-PooledStreamCompressor/target/surefire-reports/cdle.streams.mr.AppTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-Streams/Ex21-PooledStreamCompressor/target/test-classes/cdle/streams/mr/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-Configuration/Ex22-ReadConfiguration-01/target/Ex22-ReadConfiguration-01-2020.2021.SemInv.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-Configuration/Ex22-ReadConfiguration-01/target/classes/cdle/configuration/mr/ReadConfigurationVer01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-Configuration/Ex22-ReadConfiguration-01/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-Configuration/Ex22-ReadConfiguration-01/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-Configuration/Ex22-ReadConfiguration-01/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-Configuration/Ex22-ReadConfiguration-01/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-Configuration/Ex22-ReadConfiguration-01/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-Configuration/Ex22-ReadConfiguration-01/target/surefire-reports/TEST-cdle.streams.mr.AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-Configuration/Ex22-ReadConfiguration-01/target/surefire-reports/cdle.streams.mr.AppTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-Configuration/Ex22-ReadConfiguration-01/target/test-classes/cdle/streams/mr/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-Configuration/Ex23-ReadConfiguration-02/target/Ex23-ReadConfiguration-02-2020.2021.SemInv.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-Configuration/Ex23-ReadConfiguration-02/target/classes/cdle/configuration/mr/ReadConfigurationVer02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-Configuration/Ex23-ReadConfiguration-02/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-Configuration/Ex23-ReadConfiguration-02/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-Configuration/Ex23-ReadConfiguration-02/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-Configuration/Ex23-ReadConfiguration-02/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-Configuration/Ex23-ReadConfiguration-02/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-Configuration/Ex23-ReadConfiguration-02/target/surefire-reports/TEST-cdle.streams.mr.AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-Configuration/Ex23-ReadConfiguration-02/target/surefire-reports/cdle.streams.mr.AppTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-Configuration/Ex23-ReadConfiguration-02/target/test-classes/cdle/streams/mr/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-Configuration/Ex24-ReadConfiguration-03/target/Ex24-ReadConfiguration-03-2020.2021.SemInv.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-Configuration/Ex24-ReadConfiguration-03/target/classes/cdle/configuration/mr/ReadConfigurationVer03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-Configuration/Ex24-ReadConfiguration-03/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-Configuration/Ex24-ReadConfiguration-03/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-Configuration/Ex24-ReadConfiguration-03/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-Configuration/Ex24-ReadConfiguration-03/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-Configuration/Ex24-ReadConfiguration-03/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-Configuration/Ex24-ReadConfiguration-03/target/surefire-reports/TEST-cdle.streams.mr.AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-Configuration/Ex24-ReadConfiguration-03/target/surefire-reports/cdle.streams.mr.AppTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-Configuration/Ex24-ReadConfiguration-03/target/test-classes/cdle/streams/mr/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-Configuration/Ex25-ConfigurationPrinter/target/Ex25-ConfigurationPrinter-2020.2021.SemInv.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-Configuration/Ex25-ConfigurationPrinter/target/classes/cdle/configuration/mr/ConfigurationPrinter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-Configuration/Ex25-ConfigurationPrinter/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-Configuration/Ex25-ConfigurationPrinter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-Configuration/Ex25-ConfigurationPrinter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-Configuration/Ex25-ConfigurationPrinter/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-Configuration/Ex25-ConfigurationPrinter/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-Configuration/Ex25-ConfigurationPrinter/target/surefire-reports/TEST-cdle.configuration.mr.AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-Configuration/Ex25-ConfigurationPrinter/target/surefire-reports/cdle.configuration.mr.AppTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-Configuration/Ex25-ConfigurationPrinter/target/test-classes/cdle/configuration/mr/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-MapReduce/Ex26-MapReduce-01/target/Ex26-MapReduce-01-2020.2021.SemInv.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-MapReduce/Ex26-MapReduce-01/target/classes/cdle/mapreduce/mr/MinimalMapReduce.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-MapReduce/Ex26-MapReduce-01/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-MapReduce/Ex26-MapReduce-01/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-MapReduce/Ex26-MapReduce-01/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-MapReduce/Ex26-MapReduce-01/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-MapReduce/Ex26-MapReduce-01/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-MapReduce/Ex26-MapReduce-01/target/surefire-reports/TEST-cdle.mapreduce.mr.AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-MapReduce/Ex26-MapReduce-01/target/surefire-reports/cdle.mapreduce.mr.AppTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-MapReduce/Ex26-MapReduce-01/target/test-classes/cdle/mapreduce/mr/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-MapReduce/Ex27-MapReduce-02/target/Ex27-MapReduce-02-2020.2021.SemInv.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-MapReduce/Ex27-MapReduce-02/target/classes/cdle/mapreduce/mr/MinimalMapReduceWithDefaults.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-MapReduce/Ex27-MapReduce-02/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-MapReduce/Ex27-MapReduce-02/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-MapReduce/Ex27-MapReduce-02/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-MapReduce/Ex27-MapReduce-02/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-MapReduce/Ex27-MapReduce-02/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-MapReduce/Ex27-MapReduce-02/target/surefire-reports/TEST-cdle.mapreduce.mr.AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-MapReduce/Ex27-MapReduce-02/target/surefire-reports/cdle.mapreduce.mr.AppTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-MapReduce/Ex27-MapReduce-02/target/test-classes/cdle/mapreduce/mr/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-OpenCV/Demo01-OpenCV-ExtractFramesFromVideo/target/Demo01-OpenCV-ExtractFramesFromVideo-2020.2021.SemInv.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-OpenCV/Demo01-OpenCV-ExtractFramesFromVideo/target/classes/cdle/opencv/MyExtractor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-OpenCV/Demo01-OpenCV-ExtractFramesFromVideo/target/classes/cdle/opencv/MyExtractorLaunch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-OpenCV/Demo01-OpenCV-ExtractFramesFromVideo/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-OpenCV/Demo01-OpenCV-ExtractFramesFromVideo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-OpenCV/Demo01-OpenCV-ExtractFramesFromVideo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-OpenCV/Demo01-OpenCV-ExtractFramesFromVideo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-OpenCV/Demo01-OpenCV-ExtractFramesFromVideo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-OpenCV/Demo01-OpenCV-ExtractFramesFromVideo/target/surefire-reports/TEST-cdle.opencv.AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-OpenCV/Demo01-OpenCV-ExtractFramesFromVideo/target/surefire-reports/cdle.opencv.AppTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-OpenCV/Demo01-OpenCV-ExtractFramesFromVideo/target/test-classes/cdle/opencv/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-OpenCV/Demo02-OpenCV-IdentifyObjectsInPictures/target/Demo02-OpenCV-IdentifyObjectsInPictures-2020.2021.SemInv.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-OpenCV/Demo02-OpenCV-IdentifyObjectsInPictures/target/classes/cdle/opencv/MyFaceIdentifier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-OpenCV/Demo02-OpenCV-IdentifyObjectsInPictures/target/classes/cdle/opencv/MyFaceIdentifierLaunch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-OpenCV/Demo02-OpenCV-IdentifyObjectsInPictures/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-OpenCV/Demo02-OpenCV-IdentifyObjectsInPictures/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-OpenCV/Demo02-OpenCV-IdentifyObjectsInPictures/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-OpenCV/Demo02-OpenCV-IdentifyObjectsInPictures/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-OpenCV/Demo02-OpenCV-IdentifyObjectsInPictures/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-OpenCV/Demo02-OpenCV-IdentifyObjectsInPictures/target/surefire-reports/TEST-cdle.opencv.AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-OpenCV/Demo02-OpenCV-IdentifyObjectsInPictures/target/surefire-reports/cdle.opencv.AppTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-OpenCV/Demo02-OpenCV-IdentifyObjectsInPictures/target/test-classes/cdle/opencv/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-OpenCV/Utils-OpenCV/target/Utils-OpenCV-2020.2021.SemInv.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-OpenCV/Utils-OpenCV/target/classes/cdle/opencv/LibraryLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-OpenCV/Utils-OpenCV/target/classes/cdle/opencv/OSValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-OpenCV/Utils-OpenCV/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-OpenCV/Utils-OpenCV/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-OpenCV/Utils-OpenCV/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-OpenCV/Utils-OpenCV/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-OpenCV/Utils-OpenCV/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-OpenCV/Utils-OpenCV/target/surefire-reports/TEST-cdle.opencv.AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-OpenCV/Utils-OpenCV/target/surefire-reports/cdle.opencv.AppTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-OpenCV/Utils-OpenCV/target/test-classes/cdle/opencv/AppTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,14 +403,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/mastetsam/Documents/ISEL/CDLE/examples/Projects/00-Project/Configs"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/mastetsam/Documents/ISEL/CDLE/examples/Projects/00-Project/Configs&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Configs" />

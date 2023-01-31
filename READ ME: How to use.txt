@@ -1,0 +1,37 @@
+1- copy /examples/input/project/ into your /examples/input/
+
+2- copy /examples/output/project/ into your /examples/output/
+
+3- copy the following items from /examples/Projects/ into your /examples/Projects/ :
+    - 00-Project
+    - pom.xml
+    - .project
+
+4- Inside 00-Project/ there is a folder named Configs/ where you have examples:
+        <configuration>
+            <property>
+                <name>searchWord</name>
+                <value>ok</value>
+            </property>
+            <property>
+                <name>wholeWord</name>
+                <value>if you write something here you you will use wholeWord</value>
+            </property>
+            <property>
+                <name>case</name>
+                <value>if you write something here you you will use case</value>
+            </property>
+        </configuration>
+    if you want to use wholeWord or case write something in the value of the respective property.
+    Otherwise you can leave int empty or remove it
+
+5- Open terminal inside the folder 00-Project/ using the following comand:
+    cd ~/examples/Projects/00-Project
+
+6- Compile the project with the following comand:
+    mvn clean package
+
+6- To run this project use one of this comands:
+    ./run.sh local -conf Configs/yourConfig.xml
+    or
+    ./run.sh HDFS -conf Configs/yourConfig.xml
